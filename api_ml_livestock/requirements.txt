@@ -1,0 +1,6 @@
+flask
+numpy
+pandas
+orange3
+pymongo
+owlready2
