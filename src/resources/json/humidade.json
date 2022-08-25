@@ -1,0 +1,7 @@
+{
+  "date": "01/05/2020",
+  "horario": "00:00",
+  "humidityInterna": 19.6,
+  "humidityExterna": 16
+}
+//http://localhost:3001/api/humidity

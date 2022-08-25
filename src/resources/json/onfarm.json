@@ -1,0 +1,28 @@
+{
+  "fazenda": "Sistema Vacas Felizes",
+  "barcode": "303415320",
+  "brinco": "7163-1",
+  "lado": "A",
+  "data": "16/03/2020",
+  "tipo": "Sem cultura",
+  "obs": "NENHUM",
+  "quarto": "AE",
+  "grau": "leve",
+  "resultado": "Positivo",
+  "gramPositiva": "1",
+  "gramNegativa": "0",
+  "ecoli": "0",
+  "enterococcusSpp": "0",
+  "klebsiellaEnterobacter": "0",
+  "lactococcusSpp": "0",
+  "outrosGramNegativa": "0",
+  "outrosGramPositiva": "0",
+  "protothecaLevedura": "0",
+  "pseudomonasSpp": "0",
+  "serratiaSpp": "0",
+  "staphNãoAureus": "0",
+  "staphAureus": "0",
+  "strepAgalactiaeDysgalactiae": "0",
+  "strepUberis": "1"
+}
+//http://localhost:3001/api/onfarm

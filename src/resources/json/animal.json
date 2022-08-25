@@ -1,0 +1,12 @@
+{
+  "brinco": "1069-1",
+  "animal": "GIRALDA GERENTE DO CEJHB",
+  "lote": "Lote 2",
+  "status": "VAZ PEV",
+  "DEL": 14,
+  "DEA": 115,
+  "dataNascimento": "2011-12-02T02:00:00.000Z",
+  "ultimoParto": "2021-02-24T03:00:00.000Z"
+}
+
+//http://localhost:3001/api/animal

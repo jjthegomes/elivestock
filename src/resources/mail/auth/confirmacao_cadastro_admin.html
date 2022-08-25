@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Confirmação de Cadastro</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Mukta+Malar"
+      rel="stylesheet"
+    />
+    <style>
+      .pagina {
+        margin: -8px;
+        background-color: rgb(245, 245, 245);
+        padding: 10px 10px 180px 10px;
+      }
+
+      .logo {
+        text-align: center;
+      }
+
+      .logo img {
+        width: 148px;
+      }
+
+      .Template {
+        padding: 0;
+        margin: 0;
+        font-weight: 300;
+      }
+
+      .corpo {
+        padding: 40px 0px 40px 0px;
+        margin: auto;
+        margin-top: 20px;
+        box-shadow: 0px 0px 2px #888;
+        border-radius: 4px;
+        font-family: "Mukta Malar", sans-serif;
+        max-width: 600px;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        border-bottom: solid 3px #017b40;
+      }
+
+      .div-header {
+        text-align: center;
+        padding: 15px 15px;
+        background-color: #017b40;
+        color: white;
+        font-weight: 300;
+        margin-top: 15px;
+      }
+
+      .div-corpo {
+        padding: 10px 40px;
+        text-align: center;
+        font-weight: 100;
+      }
+
+      .botao {
+        padding: 16px 28px;
+        font-size: 1.2em;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #fff;
+        background: #017b40;
+      }
+
+      .botao:hover {
+        opacity: 0.8;
+      }
+
+      @media (max-width: 480px) {
+        .div-corpo {
+          padding: 10px 25px;
+        }
+
+        .div-header {
+          padding: 5px 15px;
+          font-weight: 100;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="pagina">
+      <div class="corpo">
+        <div class="logo">
+          <img
+            src="data:image/png;base64,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"
+            alt="Logo do Template"
+          />
+          <!-- <h1 class="Template">Bem Vindo!</h1> -->
+        </div>
+        <div class="div-header">
+          <h2>Compost Barn Monitor</h2>
+        </div>
+        <div class="div-corpo">
+          <br />
+          <h2 style="font-weight: 100">Cadastro validado com sucesso!</h2>
+          <h3 style="font-weight: 100">
+            Todas as funcionalidades do app foram liberadas.
+          </h3>
+          <!-- <a class="botao" href="android-app://com.compostbarn" target="_blank">
+          Ir para o app
+        </a> -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

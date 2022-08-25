@@ -1,0 +1,10 @@
+{
+  "brinco": "7173-1",
+  "ordenha1": 18.2,
+  "ordenha2": 15.2,
+  "ordenha3": 16.4,
+  "prodTotal": 49.8,
+  "date": "18/05/21"
+}
+
+//http://localhost:3001/api/prodleite

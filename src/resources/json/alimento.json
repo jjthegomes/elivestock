@@ -1,0 +1,9 @@
+{
+  "lote": "1",
+  "date": "01/02/21",
+  "numAnimais": 22,
+  "totalLote": 1132,
+  "mediaVaca": 51.455,
+  "alimento": "Silagem de Milho"
+}
+//http://localhost:3001/api/alimento
